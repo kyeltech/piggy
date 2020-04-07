@@ -5,28 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="signup.css">
     <title>Replica SignUp</title>
+    <link rel = "icon" type = "image/png" href = "https://res.cloudinary.com/olasumboeniola/image/upload/v1585947058/real_gzd80e.png">
 </head>
 <body>
-    <!-- <img src="images.jpeg" alt="piggyVest" /> -->
+    <header class="img">
+        <img src="https://res.cloudinary.com/olasumboeniola/image/upload/v1585925267/piggyvest-logo.0b78a8fa_1_1_qlhq4q.png"
+        alt="logo"
+        width="130px" style="margin-top: 2%;">
+        </header>
     <form method="POST">
         <div class="container">
         <div class="Create-content">
             <h1 class="piggy-text"><span>C</span>reate a Secure Account</h1>
             <h4 class="piggy-text-two"> welcome to the Future of saving & Investments</h4>
           <div class="input-container">
-       <label for="Full Name">Full Name</label><br />
-       <input type="text" name="text" placeholder="Full Name"required autofocus /><br />
+       <label for="FName" >Full Name</label><br />
+       <input type="text"  id="fname"placeholder="Full Name" value="name" required autofocus class="text"/><br />
        <label for="Email" class="Email"> Email Address</label><br />
-       <input type="email"  name="Email" placeholder="Email" required /><br />
-       <label for="Phone number"> Phone Number</label> <br />
-       <input type="number" name="Phone" placeholder="Phone Number" required /> <br />
+       <input type="email"  placeholder="Email" required class="text"/><br />
+       <label for="Phone"> Phone Number</label> <br />
+       <input type="number" placeholder="Phone Number" required class="text"/> <br />
        <label for="Password" class="password"> Password</label><br />
-       <input type="password" name="Password" placeholder="Password" required /><br />
-       <label for="Code" class="label-text"> Referrer Phone or Promo Code(optional)</label><br />
-       <input type="text" placeholder="Referrer Phone or Promo Code" name="Promocode" pattern="133FDS3"/><br />
-       <label for="About Us" class="label-text-option"> How Did you Hear About Us?(optional)</label><br />
-        <select class="option" type="text"`>
-            <option value="me"> Click to Select</option>  
+       <input type="password" placeholder="Password" required class="text"/><br />
+       <label for="RPPC" class="label-text"> Referrer Phone or Promo Code(optional)</label><br />
+       <input type="text" placeholder="Referrer Phone or Promo Code" name="Promocode" pattern="133FDS3" class="text"/><br />
+       <label for="How" class="label-text-option"> How Did you Hear About Us?(optional)</label><br />
+        <select class="option" type="text">
+            <option disabled selected value value="me" class="select"> Click to Select</option>  
             <option  value="Facebook">Facebook </option> 
             <option  value="Twitter">Twitter </option> 
             <option  value="Instagram">Instagram </option>
@@ -37,10 +42,9 @@
     </div>
     </div>
     <div>
-       
     </div>
 </div>
     </form>
-    
+    <a href="#" target=""><b>Already have an account?Login</b></a>
 </body>
 </html>
